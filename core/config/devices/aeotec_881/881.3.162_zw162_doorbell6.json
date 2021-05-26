@@ -29,7 +29,7 @@
             }
         },
         {
-            "name": "Sonnette Volume Etat",
+            "name": "Sonnette1 Volume Etat",
             "type": "info",
             "isVisible": 0,
             "isHistorized": 0,
@@ -41,7 +41,7 @@
             "subtype": "numeric"
         },
         {
-            "name": "Sonnette Volume",
+            "name": "Sonnette1 Volume",
             "type": "action",
             "isVisible": 1,
             "isHistorized": 0,
@@ -53,10 +53,117 @@
                 "minValue": 0,
                 "maxValue": 100
             },
-            "value": "Sonnette Volume Etat",
+            "value": "Sonnette1 Volume Etat",
             "subtype": "slider"
         },
-
+        {
+            "name": "Jouer Sonnette2",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=Default Tone",
+                "index": 1,
+                "instance": 5
+            },
+            "subtype": "other"
+        },
+        {
+            "name": "Arrêter Sonnette2",
+            "type": "action",
+            "isVisible": 1,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=Inactive",
+                "index": 1,
+                "instance": 5
+            },
+            "subtype": "other"
+        },
+        {
+            "name": "Sonnette2 Volume Etat",
+            "type": "info",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "index": 2,
+                "instance": 5
+            },
+            "subtype": "numeric"
+        },
+        {
+            "name": "Sonnette2 Volume",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=#slider#",
+                "index": 2,
+                "instance": 5,
+                "minValue": 0,
+                "maxValue": 100
+            },
+            "value": "Sonnette2 Volume Etat",
+            "subtype": "slider"
+        },
+        {
+            "name": "Jouer Sonnette3",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=Default Tone",
+                "index": 1,
+                "instance": 6
+            },
+            "subtype": "other"
+        },
+        {
+            "name": "Arrêter Sonnette3",
+            "type": "action",
+            "isVisible": 1,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=Inactive",
+                "index": 1,
+                "instance": 6
+            },
+            "subtype": "other"
+        },
+        {
+            "name": "Sonnette3 Volume Etat",
+            "type": "info",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "index": 2,
+                "instance": 6
+            },
+            "subtype": "numeric"
+        },
+        {
+            "name": "Sonnette3 Volume",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=#slider#",
+                "index": 2,
+                "instance": 6,
+                "minValue": 0,
+                "maxValue": 100
+            },
+            "value": "Sonnette3 Volume Etat",
+            "subtype": "slider"
+        },        
         {
             "name": "Jouer son",
             "type": "action",
@@ -64,12 +171,11 @@
             "isHistorized": 0,
             "configuration": {
                 "class": 121,
-                "value": "type=setvalue&value=#select#",
+                "value": "type=setvalue&value=Default Tone",
                 "index": 1,
-                "instance": 1,
-                "listValue": "01 Ding Dong (5 sec)|Ding Dong;02 Ding Dong Tubular (9 sec)|Ding Dong Tubular Bell;03 Traditional Apartment Buzzer (10 sec)|Traditional Apartment Buzzer;04 Electric Apartment Buzzer (1 sec)|Electric Apartment Buzzer;05 Westminster Chimes (12 sec)|Westminster Chimes;06 Chimes (7 sec)|Chimes;07 Cuckoo (31 sec)|Cuckoo;08 Traditional Bell (6 sec)|Traditional Bell;09 Smoke Alarm 1 (11 sec)|Smoke Alarm (Low);10 Smoke Alarm 2 (5 sec)|Smoke Alarm (High);11 Fire Evacuation Buzzer (35 sec)|Fire Evacuation Buzzer;12 CO Sensor (4 sec)|CO Alarm;13 Klaxon (6 sec)|Klaxon;14 Deep Klaxon (40 sec)|Klaxon (Deep);15 Warning Tone (37 sec)|Warning Tone;16 Tornado Siren (45 sec)|Tornado Siren;17 Alarm (35 sec)|Alarm;18 Deep Alarm (62 sec)|Deep Alarm Tone;19 Alarm Archangel (15 sec)|Alarm (Archangel tone);20 Alarm Shrill (7 sec)|Alarm (Shrill);21 Digital Siren (8 sec)|Digital Siren;22 Alert Series (63 sec)|Alert Series;23 Ship Bell (3 sec)|Security;24 Clock Buzzer (9 sec)|Clock Buzzer;25 Christmas Tree (3 sec)|Christmas Tree;26 Gong (11 sec)|Gong;27 Single Bell Ting (0 sec)|Single Bell Ting;28 Tonal Pulse (11 sec)|Tonal Pulse;29 Upwards Tone (2 sec)|Upwards Tone;30 Door Open (27 sec)|Door Open"
+                "instance": 1
             },
-            "subtype": "select"
+            "subtype": "other"
         },
         {
             "name": "Arrêter son",
@@ -85,7 +191,7 @@
             "subtype": "other"
         },
         {
-            "name": "Volume Etat",
+            "name": "Son Volume Etat",
             "type": "info",
             "isVisible": 0,
             "isHistorized": 0,
@@ -97,7 +203,7 @@
             "subtype": "numeric"
         },
         {
-            "name": "Volume",
+            "name": "Son Volume",
             "type": "action",
             "isVisible": 1,
             "isHistorized": 0,
@@ -109,8 +215,300 @@
                 "minValue": 0,
                 "maxValue": 100
             },
-            "value": "Volume Etat",
+            "value": "Son Volume Etat",
             "subtype": "slider"
+        },
+        {
+            "name": "Jouer Browse",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=Default Tone",
+                "index": 1,
+                "instance": 2
+            },
+            "subtype": "other"
+        },
+        {
+            "name": "Arrêter Browse",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=Inactive",
+                "index": 1,
+                "instance": 2
+            },
+            "subtype": "other"
+        },
+        {
+            "name": "Browse Volume Etat",
+            "type": "info",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "index": 2,
+                "instance": 2
+            },
+            "subtype": "numeric"
+        },
+        {
+            "name": "Browse Volume",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=#slider#",
+                "index": 2,
+                "instance": 2,
+                "minValue": 0,
+                "maxValue": 100
+            },
+            "value": "Browse Volume Etat",
+            "subtype": "slider"
+        },
+        {
+            "name": "Jouer Effraction",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=Default Tone",
+                "index": 1,
+                "instance": 3
+            },
+            "subtype": "other"
+        },
+        {
+            "name": "Arrêter Effraction",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=Inactive",
+                "index": 1,
+                "instance": 3
+            },
+            "subtype": "other"
+        },
+        {
+            "name": "Effraction Volume Etat",
+            "type": "info",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "index": 2,
+                "instance": 3
+            },
+            "subtype": "numeric"
+        },
+        {
+            "name": "Effraction Volume",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=#slider#",
+                "index": 2,
+                "instance": 3,
+                "minValue": 0,
+                "maxValue": 100
+            },
+            "value": "Effraction Volume Etat",
+            "subtype": "slider"
+        },
+        {
+            "name": "Jouer Environnement",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=Default Tone",
+                "index": 1,
+                "instance": 7
+            },
+            "subtype": "other"
+        },
+        {
+            "name": "Arrêter Environnement",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=Inactive",
+                "index": 1,
+                "instance": 7
+            },
+            "subtype": "other"
+        },
+        {
+            "name": "Environnement Volume Etat",
+            "type": "info",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "index": 2,
+                "instance": 7
+            },
+            "subtype": "numeric"
+        },
+        {
+            "name": "Environnement Volume",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=#slider#",
+                "index": 2,
+                "instance": 7,
+                "minValue": 0,
+                "maxValue": 100
+            },
+            "value": "Environnement Volume Etat",
+            "subtype": "slider"
+        },
+        {
+            "name": "Jouer Sécurité",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=Default Tone",
+                "index": 1,
+                "instance": 8
+            },
+            "subtype": "other"
+        },
+        {
+            "name": "Arrêter Sécurité",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=Inactive",
+                "index": 1,
+                "instance": 8
+            },
+            "subtype": "other"
+        },
+        {
+            "name": "Sécurité Volume Etat",
+            "type": "info",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "index": 2,
+                "instance": 8
+            },
+            "subtype": "numeric"
+        },
+        {
+            "name": "Sécurité Volume",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=#slider#",
+                "index": 2,
+                "instance": 8,
+                "minValue": 0,
+                "maxValue": 100
+            },
+            "value": "Sécurité Volume Etat",
+            "subtype": "slider"
+        },
+        {
+            "name": "Jouer Urgence",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=Default Tone",
+                "index": 1,
+                "instance": 9
+            },
+            "subtype": "other"
+        },
+        {
+            "name": "Arrêter Urgence",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=Inactive",
+                "index": 1,
+                "instance": 9
+            },
+            "subtype": "other"
+        },
+        {
+            "name": "Urgence Volume Etat",
+            "type": "info",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "index": 2,
+                "instance": 9
+            },
+            "subtype": "numeric"
+        },
+        {
+            "name": "Urgence Volume",
+            "type": "action",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 121,
+                "value": "type=setvalue&value=#slider#",
+                "index": 2,
+                "instance": 9,
+                "minValue": 0,
+                "maxValue": 100
+            },
+            "value": "Urgence Volume Etat",
+            "subtype": "slider"
+        },
+        {
+            "name": "Sabotage",
+            "type": "info",
+            "isVisible": 0,
+            "isHistorized": 0,
+            "configuration": {
+                "class": 113,
+                "value": "",
+                "index": 10,
+                "instance": 1,
+                "calculValueOffset": "#value#==9"
+            },
+            "subtype": "binary",
+            "display": {
+                "invertBinary": "1",
+                "generic_type": "SABOTAGE"
+            },
+            "template": {
+                "dashboard": "alert",
+                "mobile": "alert"
+            }
         }
     ],
     "recommended": {
